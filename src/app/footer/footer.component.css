@@ -1,0 +1,21 @@
+.toolstyle{
+    height: fit-content;
+}
+
+li{
+    font-size: x-small
+}
+
+footer{
+    padding-top: 10px;
+    /* position: fixed; */
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
