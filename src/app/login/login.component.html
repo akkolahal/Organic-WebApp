@@ -1,0 +1,25 @@
+<section><mat-expansion-panel class="clsmatexpansion">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Organic World
+      </mat-panel-title>
+      <mat-panel-description>
+        Login/Signup
+        <mat-icon>account_circle</mat-icon>
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+<div class="clsmat">
+    <mat-form-field appearance="fill">
+      <mat-label>Enter Username</mat-label>
+      <input matInput #uname>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Enter Password</mat-label>
+      <input matInput type="password" #upass>
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="signIn(uname.value, upass.value)">SignIn</button>
+  </div>
+  </mat-expansion-panel>
+  
+</section>
