@@ -1,0 +1,19 @@
+<p>
+    <mat-toolbar>
+        <button class="butstyle" mat-icon-button color="primary" aria-label="Example icon button with a home icon" (click)="callHome()">
+            <mat-icon >home</mat-icon>
+          </button>
+          <!-- <a routerLink="/home"> Home </a> -->
+    <span>Organic World</span>
+    <span class="example-spacer"></span>
+    <button mat-raised-button color="primary" (click)="callLogin()">Login</button>
+    <!-- <a routerLink="/login"> Login </a> -->
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+     <mat-icon>share</mat-icon>
+   </button>
+  </mat-toolbar>
+  </p>
+  <router-outlet></router-outlet>
