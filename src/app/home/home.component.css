@@ -1,0 +1,32 @@
+section{
+    background-color:rgb(115, 214, 214);
+    width:100%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+     padding-right: 100px;  
+     padding-left: 100px;
+     padding-top: 20px;
+     font-size: medium;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+.example-card{
+    
+    height: 200px;
+    width: 250px;
+}
+.mat-card-image{
+    height: 100px;
+    width: 100px;
+}
